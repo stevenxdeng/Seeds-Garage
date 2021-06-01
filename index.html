@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Steven Deng</title>
+    <meta name="viewport" content="width=devicewidth, initial-scale=1, maximum-scale=1" />
+    <script src="index.js"></script>
+    <script type="text/javascript" src="data.js"></script> 
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="dropdown_bar.css">
+  </head>
+  <body>
+    <div class="head" onclick="sayhello">Seed's Garage</div>
+    <div>
+      <a href="https://github.com/stevenxdeng">
+        <img class="logo" src="./pioneerW.png"></img>
+      </a>
+    </div>
+    <div class="menu_bar" id="category_canvas">
+      <div href="#" class="dropdown" id="by_brand">Brand
+        <div class="dropdown_content" id="brand">
+          <a href="./Categories/category.html?brand=Alfa Romeo">Alfa Romeo</a>
+          <a href="./Categories/category.html?brand=Aston Martin">Aston Martin</a>
+          <a href="./Categories/category.html?brand=Audi">Audi</a>
+          <a href="./Categories/category.html?brand=Bentley">Bentley</a>
+          <a href="./Categories/category.html?brand=BMW">BMW</a>
+          <a href="./Categories/category.html?brand=Bugatti">Bugatti</a>
+          <a href="./Categories/category.html?brand=Cadillac">Cadillac</a>
+          <a href="./Categories/category.html?brand=Chevrolet">Chevrolet</a>
+          <a href="./Categories/category.html?brand=Citroën">Citroën</a>
+          <a href="./Categories/category.html?brand=Daihatsu">Daihatsu</a>
+          <a href="./Categories/category.html?brand=Dodge">Dodge</a>
+          <a href="./Categories/category.html?brand=Ferrari">Ferrari</a>
+          <a href="./Categories/category.html?brand=Fiat">Fiat</a>
+          <a href="./Categories/category.html?brand=Ford">Ford</a>
+          <a href="./Categories/category.html?brand=Holden">Holden</a>
+          <a href="./Categories/category.html?brand=Honda">Honda</a>
+          <a href="./Categories/category.html?brand=Hummer">Hummer</a>
+          <a href="./Categories/category.html?brand=Infiniti">Infiniti</a>
+          <a href="./Categories/category.html?brand=Jaguar">Jaguar</a>
+          <a href="./Categories/category.html?brand=Jeep">Jeep</a>
+          <a href="./Categories/category.html?brand=Koenigsegg">Koenigsegg</a>
+          <a href="./Categories/category.html?brand=Lamborghini">Lamborghini</a>
+          <a href="./Categories/category.html?brand=Lancia">Lancia</a>
+          <a href="./Categories/category.html?brand=Land Rover">Land Rover</a>
+          <a href="./Categories/category.html?brand=Lexus">Lexus</a>
+          <a href="./Categories/category.html?brand=LTI">LTI</a>
+          <a href="./Categories/category.html?brand=Mazda">Mazda</a>
+          <a href="./Categories/category.html?brand=Mclaren">Mclaren</a>
+          <a href="./Categories/category.html?brand=Mercedes-Benz">Mercedes-Benz</a>
+          <a href="./Categories/category.html?brand=MG">MG</a>
+          <a href="./Categories/category.html?brand=Mini">Mini</a>
+          <a href="./Categories/category.html?brand=Mitsubishi">Mitsubishi</a>
+          <a href="./Categories/category.html?brand=Nissan">Nissan</a>
+          <a href="./Categories/category.html?brand=Oldsmobile">Oldsmobile</a>
+          <a href="./Categories/category.html?brand=Pagani">Pagani</a>
+          <a href="./Categories/category.html?brand=Plymouth">Plymouth</a>
+          <a href="./Categories/category.html?brand=Pontiac">Pontiac</a>
+          <a href="./Categories/category.html?brand=Porsche">Porsche</a>
+          <a href="./Categories/category.html?brand=Renault">Renault</a>
+          <a href="./Categories/category.html?brand=Saab">Saab</a>
+          <a href="./Categories/category.html?brand=Subaru">Subaru</a>
+          <a href="./Categories/category.html?brand=Suzuki">Suzuki</a>
+          <a href="./Categories/category.html?brand=Tesla">Tesla</a>
+          <a href="./Categories/category.html?brand=Toyota">Toyota</a>
+          <a href="./Categories/category.html?brand=Volkswagen">Volkswagen</a>
+          <a href="./Categories/category.html?brand=Volvo">Volvo</a>
+        </div>
+      </div>
+      <p class="menu_bar_block" id="by_brand-by_country">|</p>
+      <div href="#" class="dropdown" id="by_country">Country
+        <div class="dropdown_content">
+          <a href="./Categories/category.html?country=Brazil">Brazil</a>
+          <a href="./Categories/category.html?country=France">France</a>
+          <a href="./Categories/category.html?country=Germany">Germany</a>
+          <a href="./Categories/category.html?country=Italy">Italy</a>
+          <a href="./Categories/category.html?country=Japan">Japan</a>
+          <a href="./Categories/category.html?country=Taiwan">Taiwan</a>
+          <a href="./Categories/category.html?country=Sweden">Sweden</a>
+          <a href="./Categories/category.html?country=UK">UK</a>
+          <a href="./Categories/category.html?country=USA">USA</a>
+        </div>
+      </div>
+      <p class="menu_bar_block" id="by_country-by_manufacturer">|</p>
+      <div href="#" class="dropdown" id="by_manufacturer">Manufacturer
+        <div class="dropdown_content">
+          <a href="./Categories/category.html?manufacturer=711">711</a>
+          <a href="./Categories/category.html?manufacturer=Corgi">Corgi</a>
+          <a href="./Categories/category.html?manufacturer=Hot Wheels">Hot Wheels</a>
+          <a href="./Categories/category.html?manufacturer=Majorette">Majorette</a>
+          <a href="./Categories/category.html?manufacturer=Matchbox">Matchbox</a>
+          <a href="./Categories/category.html?manufacturer=Tomica">Tomica</a>
+          <a href="./Categories/category.html?manufacturer=Welly">Welly</a>
+        </div>
+      </div>
+      <p class="menu_bar_block" id="by_manufacturer-by_series">|</p>
+      <div href="#" class="dropdown" id="by_series">Series
+        <div class="dropdown_content" id="series">
+          <a href="./Categories/category.html?series=911">911</a>
+          <a href="./Categories/category.html?series=AMG">AMG</a>
+          <a href="./Categories/category.html?series=Camaro">Camaro</a>
+          <a href="./Categories/category.html?series=Civic">Civic</a>
+          <a href="./Categories/category.html?series=Corvette">Corvette</a>
+          <a href="./Categories/category.html?series=Fairlady Z">Fairlady Z</a>
+          <a href="./Categories/category.html?series=GT-R">GT-R</a>
+          <a href="./Categories/category.html?series=M Power">M Power</a>
+          <a href="./Categories/category.html?series=Mustang">Mustang</a>
+          <a href="./Categories/category.html?series=Skyline">Skyline</a>
+          <a href="./Categories/category.html?series=Type R">Type R</a>
+          <a href="./Categories/category.html?series=WRX">WRX</a>
+          <a href="./Categories/category.html?series=HCPD">HCPD</a>
+        </div>
+      </div>
+    </div>
+    <div class="menu_bar" id="sort_canvas">
+        <div href="#" class="dropdown" id="sort">|   Sort   |
+          <div class="dropdown_content">
+            <a href="#" id="sort_year_tab" onclick="sort_by_year()">Year</a>
+            <a href="#" id="sort_brand_tab" onclick="sort_by_brand()">Brand</a>
+            <a href="#" id="sort_date_tab" onclick="sort_by_date()">Newest</a>
+          </div>
+        </div>  
+    </div>
+    <div class="background">
+      <img class="roll_img_background" src="./Vehicles/tire.png"></img>  
+      <div class="roll_img_box">
+        <p class="roll_img_title" id="roll_img_description_title">DRAG!</p>
+        <p class="roll_img_content" id="roll_img_description"></p>
+        <img class="roll_img" src="./top_01.jpg" id="roll_img"></img>
+        <div class = "roll_img_dot_canvas">
+          <span class = "roll_img_dot" onclick="changeimg(4)"></span>
+          <span class = "roll_img_dot" onclick="changeimg(1)"></span>
+          <span class = "roll_img_dot" onclick="changeimg(2)"></span>
+          <span class = "roll_img_dot" onclick="changeimg(3)"></span>
+        </div>
+      </div>
+      <div class="BG_box">
+        <div class="FG_box">
+          <a class="img_title_link" href="./Vehicles/vehicle_data.html">
+            <p class="img_title">Loading...</p>
+          </a>
+          <img class="img_tag" src="./Categories/Country/ROC.png"></img>
+          <img class="img_box" src="./Vehicles/pioneer.png"></img>
+        </div>
+        <div class="FG_box">
+          <a class="img_title_link" href="./Vehicles/vehicle_data.html">
+            <p class="img_title">Loading...</p>
+          </a>
+          <img class="img_tag" src="./Categories/Country/ROC.png"></img>
+          <img class="img_box" src="./Vehicles/pioneer.png"></img>
+        </div>
+        <div class="FG_box">
+          <a class="img_title_link" href="./Vehicles/vehicle_data.html">
+            <p class="img_title">Loading...</p>
+          </a>
+          <img class="img_tag" src="./Categories/Country/ROC.png"></img>
+          <img class="img_box" src="./Vehicles/pioneer.png"></img>
+        </div>
+        <div class="FG_box">
+          <a class="img_title_link" href="./Vehicles/vehicle_data.html">
+            <p class="img_title">Loading...</p>
+          </a>
+          <img class="img_tag" src="./Categories/Country/ROC.png"></img>
+          <img class="img_box" src="./Vehicles/pioneer.png"></img>
+        </div>
+        <div class="FG_box">
+          <a class="img_title_link" href="./Vehicles/vehicle_data.html">
+            <p class="img_title">Loading...</p>
+          </a>
+          <img class="img_tag" src="./Categories/Country/ROC.png"></img>
+          <img class="img_box" src="./Vehicles/pioneer.png"></img>
+        </div>
+        <div class="FG_box">
+          <a class="img_title_link" href="./Vehicles/vehicle_data.html">
+            <p class="img_title">Loading...</p>
+          </a>
+          <img class="img_tag" src="./Categories/Country/ROC.png"></img>
+          <img class="img_box" src="./Vehicles/pioneer.png"></img>
+        </div>
+        <div class="FG_box">
+          <a class="img_title_link" href="./Vehicles/vehicle_data.html">
+            <p class="img_title">Loading...</p>
+          </a>
+          <img class="img_tag" src="./Categories/Country/ROC.png"></img>
+          <img class="img_box" src="./Vehicles/pioneer.png"></img>
+        </div>
+        <div class="FG_box">
+          <a class="img_title_link" href="./Vehicles/vehicle_data.html">
+            <p class="img_title">Loading...</p>
+          </a>
+          <img class="img_tag" src="./Categories/Country/ROC.png"></img>
+          <img class="img_box" src="./Vehicles/pioneer.png"></img>
+        </div>
+        <div class="FG_box">
+          <a class="img_title_link" href="./Vehicles/vehicle_data.html">
+            <p class="img_title">Loading...</p>
+          </a>
+          <img class="img_tag" src="./Categories/Country/ROC.png"></img>
+          <img class="img_box" src="./Vehicles/pioneer.png"></img>
+        </div>
+        <div class="FG_box">
+          <a class="img_title_link" href="./Vehicles/vehicle_data.html">
+            <p class="img_title">Loading...</p>
+          </a>
+          <img class="img_tag" src="./Categories/Country/ROC.png"></img>
+          <img class="img_box" src="./Vehicles/pioneer.png"></img>
+        </div>
+        <div class="FG_box">
+          <a class="img_title_link" href="./Vehicles/vehicle_data.html">
+            <p class="img_title">Loading...</p>
+          </a>
+          <img class="img_tag" src="./Categories/Country/ROC.png"></img>
+          <img class="img_box" src="./Vehicles/pioneer.png"></img>
+        </div>
+        <div class="FG_box">
+          <a class="img_title_link" href="./Vehicles/vehicle_data.html">
+            <p class="img_title">Loading...</p>
+          </a>
+          <img class="img_tag" src="./Categories/Country/ROC.png"></img>
+          <img class="img_box" src="./Vehicles/pioneer.png"></img>
+        </div>
+      </div>
+      <div class="Page_button_canvas">
+        <div id="previous_btn" onclick="change_page('back')">Previous</div>
+        <div id="next_btn" onclick="change_page('next')">Next</div>
+        <p id="Page_number">1</p>
+      </div>
+      <div class="Page_selector">
+        Page: <input id="Page_blank" type="text"><button id="Page_selector_btn">Go</button>
+      </div>
+    </div>
+    <div id="copyright">
+      <img src="./Pioneer_CN.png"></img>
+      <p id="copyright_content">Copyright Reserved by<br><a href="../index.html">Pioneer Custom</a></p>
+    </div>
+  </body>
+</html>

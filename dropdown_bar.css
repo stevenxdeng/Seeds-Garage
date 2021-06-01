@@ -1,0 +1,288 @@
+.head {
+  padding: 5px;
+  background-color: black;
+  color:white;
+  font-weight: bold;
+  font-size: 40px;
+  font-family: Impact;
+  text-align: center;
+}
+
+.logo{
+  width:102px; 
+  height: 76px;
+  position: absolute; 
+  right: 0px; 
+  top:0px;
+}
+.logo:hover{
+  cursor: pointer;
+}
+
+/*Dropdown menu Section*/
+.menu_bar{
+  position:relative;
+  left: 0px;
+  width: 100%;
+  height: 40px;
+}
+
+#category_canvas{
+  background: #333333;
+}
+
+#sort_canvas{
+  background: #666666;
+}
+
+.dropdown{
+    position: absolute;
+    width:100px;
+    height:100%;
+    color:white;
+    font-family:"Century Gothic", bold ;
+    text-align: center;
+    padding-top: 2px;
+    font-size: 25px;
+    transition: 500ms;
+}
+
+.dropdown:hover{
+  background: #aaaaaa;
+  color:black;
+  cursor: pointer;
+}
+
+#by_brand{
+  left: 0px;
+  width: 80px;
+}
+
+#by_country{
+  left: 100px;
+}
+
+#by_manufacturer{
+  width: 180px;
+  left: 220px;
+}
+
+#by_series{
+  width: 80px;
+  left: 420px;
+}
+
+.menu_bar_block{
+  position: absolute;
+  top: -30px;
+  width:20px;
+  height: 100%;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+
+#by_brand-by_country{
+  left: 80px;
+}
+
+#by_country-by_manufacturer{
+  left:200px;
+}
+
+#by_manufacturer-by_series{
+  left: 400px;
+}
+
+.dropdown_content{
+  display: none;
+  position: relative;
+  top: 8px;
+  left: 0px;
+  width: 150px;
+  background: #444444;
+  z-index: 1;
+  transition: 500ms;
+}
+
+.dropdown:hover .dropdown_content{
+  display: block;
+}
+
+#brand{
+  height: 450px;
+  overflow: scroll;
+}
+
+#series{
+  height: 450px;
+  overflow: scroll;
+}
+
+.dropdown_content a {
+  color: white;
+  padding: 10px;
+  display: block;
+  font-size: 15px;
+  text-decoration: none;
+  text-align: left;
+  transition: 500ms;
+}
+
+.dropdown_content a:hover{
+  background-color: #dddddd;
+  color: black;
+}
+
+#sort{
+  position:absolute;
+  right:0%;
+  display: block;
+}
+
+/*Copyright Section*/
+#copyright{
+  position: relative;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  display:flex;
+  width: 100px;
+  justify-content: center;
+}
+
+#copyright_content{
+  position: absolute;
+  top: 15px;
+  padding: 5px;
+  font-family: Arial;
+  font-size: 8px;
+  text-align: center;
+}
+
+@media(max-width:1200px)
+{
+  .head {
+    font-size: 30px;
+  }
+  .logo{
+    width:76px; 
+    height: 57px;
+  }
+  .menu_bar{
+    height: 30px;
+  }
+  .dropdown{
+    font-size: 19px;
+  }
+
+  #by_brand{
+    width: 60px;
+  }
+
+  #by_country{
+    width: 75px;
+    left: 80px;
+  }
+
+  #by_manufacturer{
+    width: 135px;
+    left: 175px;
+  }
+
+  #by_series{
+    width: 60px;
+    left: 330px;
+  }
+
+  .menu_bar_block{
+    top: -24px;
+    font-size: 24px;
+  }
+
+  #by_brand-by_country{
+    left: 60px;
+  }
+
+  #by_country-by_manufacturer{
+    left:155px;
+  }
+
+  #by_manufacturer-by_series{
+    left: 310px;
+  }
+
+  .dropdown_content{
+    top: 5px;
+  }
+
+  .dropdown_content a {
+    font-size: 12px;
+  }
+
+  #sort{
+    width: 80px;
+  }
+}
+
+@media(max-width:775px)
+{
+  .head {
+    font-size: 24px;
+  }
+  .logo{
+    width:60px; 
+    height: 45px;
+  }
+  .menu_bar{
+    height: 24px;
+  }
+  .dropdown{
+    font-size: 15px;
+  }
+
+  #by_brand{
+    width: 48px;
+  }
+
+  #by_country{
+    width: 60px;
+    left: 58px;
+  }
+
+  #by_manufacturer{
+    width: 108px;
+    left: 128px;
+  }
+
+  #by_series{
+    width: 48px;
+    left: 246px;
+  }
+
+  .menu_bar_block{
+    top: -19px;
+    width: 10px;
+    font-size: 19px;
+  }
+
+  #by_brand-by_country{
+    left: 48px;
+  }
+
+  #by_country-by_manufacturer{
+    left:118px;
+  }
+
+  #by_manufacturer-by_series{
+    left: 236px;
+  }
+
+  .dropdown_content{
+    top: 3px;
+  }
+
+  #sort{
+    width: 64px;
+  }
+}
